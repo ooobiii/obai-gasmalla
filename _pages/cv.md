@@ -4,8 +4,8 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 5
-cv_pdf: example_pdf.pdf
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
+cv_pdf: Obai_CV.pdf
+description: You can also view/download the CV from the top pdf download button. Thanks!
 toc:
   sidebar: left
 ---
