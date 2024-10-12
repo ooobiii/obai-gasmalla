@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Third Floor, 11 Westferry Circus, London, E14 4HD</p>
+    <p>Find me @ Third Floor, 11 Westferry Circus, London, E14 4HD</p>
 
 news: false # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
