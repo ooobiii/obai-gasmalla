@@ -59,10 +59,20 @@ layout: default
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">recent publication</a>
       </h2>
-      {% include selected_papers.liquid %}
+      <div class="selected-publications">
+        {% bibliography --file papers --query @*[selected=true] %}
+      </div>
     {% endif %}
+
+    <!-- Papers I Read Recently -->
+    <h2>
+      <a href="{{ '/papers-read/' | relative_url }}" style="color: inherit">Papers I Read Recently</a>
+    </h2>
+    <div class="papers-read-recently">
+      {% bibliography --file papers_read --query @*[recent=true] %}
+    </div>
 
     <!-- Social -->
     {% if page.social %}
