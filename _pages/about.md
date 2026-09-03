@@ -6,7 +6,7 @@ subtitle: AI Researcher & Data Consultant in <a href='https://www.wsp.com/en-gb/
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Find me @ Third Floor, 11 Westferry Circus, London, E14 4HD</p>
