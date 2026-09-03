@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Obai Gasmalla",
-    "label": "Assistant Data Consultant",
+    "label": "Data Consultant (Data Scientist)",
     "image": "",
     "email": "obaianwar@gmail.com",
     "phone": "+447384596249",
     "url": "https://www.linkedin.com/in/obai-gasmalla/",
-    "summary": "Assistant Data Consultant with experience in machine learning, data engineering, cloud computing, and stakeholder engagement, focusing on delivering scalable solutions and forecasting models for infrastructure projects.",
+    "summary": "Data Consultant with 4+ years delivering data and analytics for transport and infrastructure clients and asset owners across rail, highways, the wider built environment and energy networks, underpinned by an MSc in Artificial Intelligence (Distinction). Engages stakeholders, designs solutions, develops in Python and SQL, and presents clearly to technical and non-technical audiences.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -25,15 +25,21 @@
   "work": [
     {
       "name": "WSP",
-      "position": "Assistant Data Consultant",
+      "position": "Data Consultant (Data Scientist)",
       "url": "https://www.wsp.com",
       "startDate": "2024-07",
       "endDate": "Present",
-      "summary": "Data Consultant in the Intelligent Infrastructure department, working on machine learning and data engineering projects. Involves large dataset handling, forecasting, statistical analysis, and stakeholder engagement.",
+      "location": "London, United Kingdom",
+      "summary": "Client-facing data science and data engineering across the full delivery lifecycle for infrastructure clients.",
       "highlights": [
-        "Leading the design and implementation of a technical ETL pipeline using Databricks and Azure cloud solutions.",
-        "Supporting Transport for Wales (TfWRL) commercial analytics and service performance integration into the Azure cloud platform.",
-        "Involved in machine learning and data engineering projects focused on cloud computing."
+        "Deliver client-facing analytics for infrastructure clients across the full delivery lifecycle: engage stakeholders to gather requirements and determine root causes, design solutions, develop and test in Python and SQL, and present outcomes to technical and non-technical audiences.",
+        "Design and implement the ETL/ML pipeline for structures asset valuation on Spark, Databricks and Azure, deploying predictive models end to end with automated testing, model evaluation and monitoring frameworks, and CI/CD.",
+        "Interrogate millions of asset records using SQL and Python, replacing a manual, laptop-dependent process with a ~20-minute automated workflow feeding downstream valuation and predictive-maintenance models.",
+        "Engineer NLP pipelines and statistical models over unstructured free-text data on structures (transformers, embeddings, TF-IDF), automating critical analysis workflows with 10/10 client feedback.",
+        "On the East West Rail Digital Spine Programme (MWJV), develop ETL pipelines integrating DOORS requirements data into the Digital Spine and own the semantic layer architecture, defining common business entities and data models for cross-system traceability across Azure, PostgreSQL and Microsoft Fabric.",
+        "Engineer an Azure Function App in C# (HTTP-triggered, managed identity), hardening cross-system data movement.",
+        "Deliver Power BI dashboards, reporting and user training so non-technical stakeholders and executives monitor outputs self-serve.",
+        "Coach and mentor junior team members through code reviews and knowledge sharing, and provide input to tenders and bids."
       ]
     },
     {
@@ -42,11 +48,13 @@
       "url": "https://www.wsp.com",
       "startDate": "2022-10",
       "endDate": "2024-07",
-      "summary": "Graduate Data Consultant involved in data engineering and business analytics projects across multiple infrastructure sectors.",
+      "location": "London, United Kingdom",
+      "summary": "Data engineering and business analytics across multiple infrastructure sectors.",
       "highlights": [
-        "Developed an NLP-based pipeline for Network Rail Structures’ Assets Transformation Project.",
-        "Designed and implemented data pipelines for Transport for West Midlands (TfWM) transportation data analysis.",
-        "Provided data insights and managed challenges for National Highways."
+        "Developed large-scale analytical pipelines in Python and R linking defects to recommendations and fast-tracking engineering decisions on Network Rail and National Highways work.",
+        "Implemented data quality assurance and metadata management frameworks ensuring compliance with data governance and regulatory requirements.",
+        "Designed and implemented transport data pipelines for Transport for West Midlands (TfWM) in multidisciplinary delivery teams.",
+        "Contributed as a Data Engineer to Transport for Wales (TfWRL) commercial analytics and service performance integration into Azure, delivering Power BI training so end users could extract and analyse commercial insights self-serve."
       ]
     }
   ],
@@ -55,7 +63,7 @@
       "institution": "Sudan University of Science and Technology",
       "location": "Sudan",
       "url": "https://www.sustech.edu/",
-      "area": "Electrical Engineering",
+      "area": "Electrical Engineering, specialisation in Control Theory",
       "studyType": "BSc (Hons)",
       "startDate": "",
       "endDate": "",
@@ -65,14 +73,30 @@
       "institution": "University of West London",
       "location": "United Kingdom",
       "url": "https://www.uwl.ac.uk",
-      "area": "Artificial Intelligence",
+      "area": "Artificial Intelligence (Computer Vision)",
       "studyType": "MSc",
       "startDate": "",
       "endDate": "",
-      "score": "Distinction (First Class)"
+      "score": "Distinction (First Class)",
+      "courses": [
+        "Computer Vision",
+        "Deep Learning Architectures",
+        "Advanced Machine Learning",
+        "Statistical Methods",
+        "Data Mining",
+        "Natural Language Processing",
+        "Research Methodologies"
+      ]
     }
   ],
   "certificates": [
+    {
+      "name": "AI-900 Azure AI Fundamentals",
+      "date": "",
+      "issuer": "Microsoft",
+      "url": "",
+      "icon": ""
+    },
     {
       "name": "AZ-900 Azure Fundamentals",
       "date": "",
@@ -84,6 +108,13 @@
       "name": "ITIL 4 Professional Certification",
       "date": "",
       "issuer": "",
+      "url": "",
+      "icon": ""
+    },
+    {
+      "name": "IBM Data Science Professional Certificate",
+      "date": "",
+      "issuer": "IBM",
       "url": "",
       "icon": ""
     },
@@ -113,14 +144,35 @@
   ],
   "projects": [
     {
-      "name": "Northern Powergrid - Newcastle University",
-      "summary": "Unveiled patterns and insights within electricity distribution networks, proposing a forecasting model for energy demand.",
+      "name": "National Highways Asset Management System (AMS) Data Migration and Transformation",
+      "summary": "WSP",
       "highlights": [
-        "Collaborated with operational architects.",
-        "Used Jupyter Notebooks and GitHub for data analysis."
+        "Deliver data transformation and migration workstreams, developing Python, pandas and GeoPandas based solutions to reconcile asset registers and datasets across multiple source systems.",
+        "Design automated data quality, conflict-resolution and reporting workflows, including dependency analysis, change tracking and exception management, reducing manual effort and improving confidence in AMS-ready datasets."
       ],
-      "startDate": "",
-      "endDate": "",
+      "startDate": "2026-01",
+      "endDate": "Present",
+      "url": ""
+    },
+    {
+      "name": "Energy Demand Forecasting, Northern Powergrid x Newcastle University",
+      "summary": "Turing Institute Data Study Group",
+      "highlights": [
+        "Performed exploratory analysis on electricity distribution network data, identifying cost trends and proposing a time-series forecasting model for energy demand to support net-zero transition planning.",
+        "Delivered reproducible analysis in Jupyter Notebooks with GitHub, collaborating with the network's operational architects."
+      ],
+      "startDate": "2022",
+      "endDate": "2022",
+      "url": ""
+    },
+    {
+      "name": "Wind Turbine Surface Defects Detection",
+      "summary": "University of West London",
+      "highlights": [
+        "MSc dissertation developing a deep learning based computer vision algorithm for automated wind turbine surface defect detection, applying convolutional neural networks and transfer learning with rigorous performance evaluation."
+      ],
+      "startDate": "2022",
+      "endDate": "2022",
       "url": ""
     }
   ],
@@ -130,46 +182,96 @@
       "level": "Expert",
       "keywords": [
         "Python",
-        "R",
-        "Java",
         "SQL",
-        "C#",
-        ".Net"
+        "R",
+        "C#"
       ]
     },
     {
-      "name": "Cloud Computing",
-      "level": "Proficient",
+      "name": "Python Data & ML Stack",
+      "level": "Expert",
       "keywords": [
-        "Databricks",
-        "Microsoft Azure",
-        "AWS"
+        "pandas",
+        "polars",
+        "NumPy",
+        "SciPy",
+        "scikit-learn",
+        "PyTorch",
+        "TensorFlow",
+        "XGBoost",
+        "LightGBM"
       ]
     },
     {
-      "name": "Machine Learning",
+      "name": "Statistical Methods & Machine Learning",
       "level": "Proficient",
       "keywords": [
         "Statistical analysis",
-        "NLP",
-        "Data visualisation"
+        "Regression",
+        "Classification",
+        "Clustering",
+        "Time-series forecasting",
+        "Feature engineering",
+        "NLP (transformers, embeddings, TF-IDF)"
       ]
     },
     {
-      "name": "Version Control",
+      "name": "Data Visualisation & Reporting",
+      "level": "Proficient",
+      "keywords": [
+        "Power BI",
+        "Tableau",
+        "Matplotlib",
+        "Seaborn",
+        "ggplot2",
+        "Data storytelling"
+      ]
+    },
+    {
+      "name": "Location Intelligence & Geospatial",
+      "level": "Proficient",
+      "keywords": [
+        "GeoPandas",
+        "GIS data processing",
+        "Transport data pipelines"
+      ]
+    },
+    {
+      "name": "Data Engineering & Cloud",
+      "level": "Proficient",
+      "keywords": [
+        "Microsoft Azure",
+        "Databricks",
+        "Apache Spark",
+        "Azure Data Factory",
+        "Azure Functions",
+        "PostgreSQL",
+        "Microsoft Fabric",
+        "AWS",
+        "GCP"
+      ]
+    },
+    {
+      "name": "Engineering & MLOps",
       "level": "Proficient",
       "keywords": [
         "Git",
         "GitHub",
-        "Azure DevOps"
+        "CI/CD",
+        "Automated testing (pytest, Behave)",
+        "MLflow",
+        "Docker"
       ]
     },
     {
-      "name": "Other Skills",
+      "name": "Consulting & Delivery",
       "level": "",
       "keywords": [
-        "Stakeholder Engagement",
-        "Project Management"
+        "Stakeholder engagement",
+        "Requirements gathering",
+        "Agile delivery (Scrum/Kanban)",
+        "User training",
+        "Mentoring"
       ]
     }
   ],

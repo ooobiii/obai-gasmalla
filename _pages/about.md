@@ -16,6 +16,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi, I’m Obai (pronounced “Obay”), currently working as an Assistant Data Consultant at WSP Intelligent Infrastructure in London. I hold an MSc in Artificial Intelligence, building on a background in Electrical Engineering. My expertise spans data consulting and AI research, with a strong focus on applying AI in energy-related fields.
+Hi, I’m Obai (pronounced “Obay”), currently working as a Data Consultant (Data Scientist) at WSP Intelligent Infrastructure in London. I hold an MSc in Artificial Intelligence with Distinction, building on a background in Electrical Engineering. My expertise spans data consulting and AI research, with a strong focus on applying AI to transport, infrastructure and energy challenges.
 
-Connect wih me on [LinkedIn](https://www.linkedin.com/in/obai-gasmalla/) - please feel free to reach out :) 
+Connect with me on [LinkedIn](https://www.linkedin.com/in/obai-gasmalla/) - please feel free to reach out :) 
